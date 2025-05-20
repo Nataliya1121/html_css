@@ -1,0 +1,8 @@
+h2 + ol li {
+    text-decoration: line-through;
+
+}
+
+body {
+    background: rgb(220, 211, 220);
+}

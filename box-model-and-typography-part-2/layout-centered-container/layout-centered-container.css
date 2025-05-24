@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid green;
+    padding: 2em;
+}
+
+.site {
+    border: 2px solid blue;
+    padding: 2em;
+
+    /* layout is centered-container */
+    max-width: 66ch;
+    margin: 0 auto;
+}
+
+/* .site > header,
+.site > main,
+.site > footer {
+    border: 2px solid black;
+    padding: 2em;
+    text-align: center;
+} */
+
+.site > * {
+    border: 2px solid black;
+    padding: 2em;
+    text-align: center;
+}
+
+.site > *:not(:last-child) {
+    margin-bottom: 2em;
+}
+
+/* .site > * + * {
+    margin-top: 2em;
+} */

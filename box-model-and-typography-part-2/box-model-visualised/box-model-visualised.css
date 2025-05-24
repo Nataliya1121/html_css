@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box-model {
+    max-width: 600px;
+    margin: 3em auto;
+}
+
+.box-model div {
+    border: 1px dashed black;
+    padding: 2em;
+    position: relative;
+}
+
+.box-model span {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 1em;
+}
+
+.box-model .content {
+    text-align: center;
+    background-color: lightblue;
+}
+
+.box-model .padding {
+    background-color: lightgreen;
+}
+
+.box-model .border {
+    background-color: lightgoldenrodyellow;
+}
+
+.box-model .margin {
+    background-color: coral;
+}
+
+/* Box number 2 */
+
+.box-model.psuedo-elements .margin::before {
+    content: 'margin';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 1em;
+}
+
+.box-model.psuedo-elements .border::before {
+    content: 'border';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 1em;
+}
+
+.box-model.psuedo-elements .padding::before {
+    content: 'padding';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 1em;
+}
+
+/*  .box-model.psuedo-elements div::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 1em;
+}
+
+.box-model.psuedo-elements .margin::before { content: 'margin'; }
+.box-model.psuedo-elements .border::before { content: 'border'; }
+.box-model.psuedo-elements .padding::before { content: 'padding'; } */

@@ -1,0 +1,11 @@
+h2 ~ p {
+    color: rgb(177, 27, 122);
+}
+
+time {
+    font-style: italic;
+}
+
+strong {
+    font-style: bold;
+}

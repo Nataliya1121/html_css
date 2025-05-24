@@ -1,0 +1,82 @@
+/* Основни настройки за тялото */
+body {
+    font-family: Arial, sans-serif; /* Чиста и лесна за четене шрифт */
+    line-height: 1.6;               /* Повече разстояние между редовете за по-добра четимост */
+    max-width: 700px;               /* Ограничаваме ширината на съдържанието за по-приятен изглед */
+    margin: 40px auto;              /* Центрираме съдържанието и добавяме отгоре и отдолу разстояние */
+    padding: 0 20px;                /* Отстояние от краищата на екрана */
+    background-color: #f9f9f9;     /* Светъл фон за по-меко усещане */
+    color: #333;                   /* Тъмно сив цвят за текста, по-приятен за очите от черното */
+}
+
+/* Стил за заглавието в header */
+header h1 {
+    font-size: 2.5rem;             /* Голям размер на заглавието */
+    margin-bottom: 10px;           /* Малко разстояние под заглавието */
+    color: #222;                   /* Тъмен цвят за заглавието */
+}
+
+/* Стил за параграфите в header (метаданни) */
+header p {
+    font-size: 0.9rem;
+    color: #555;                   /* По-светъл сив за по-малко акцентиране */
+    margin-bottom: 30px;           /* Разстояние под метаданните */
+}
+
+/* Основни параграфи в main */
+main p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* Заглавията на секции */
+main section h2 {
+    font-size: 1.6rem;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: #005f73;                /* Тъмносин цвят за акцент */
+}
+
+/* Цитатите */
+blockquote {
+    font-style: italic;            /* Курсив за цитат */
+    color: #6a994e;                /* Зелен цвят за по-специално усещане */
+    border-left: 4px solid #6a994e; /* Лява цветна линия за по-голям акцент */
+    padding-left: 15px;
+    margin: 40px 0;
+    background-color: #e9f5db;    /* Много светъл зелен фон */
+}
+
+/* Секция Коментари */
+section h2 {
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #333; /* Линия под заглавието */
+    padding-bottom: 5px;
+}
+
+/* Всеки коментар */
+section article {
+    background-color: white;
+    border: 1px solid #ddd;       /* Лека рамка около коментарите */
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;           /* Заоблени ъгли */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Много лек сянка ефект */
+}
+
+/* Заглавие на коментар (име и дата) */
+section article header p {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+/* Текстът на коментара */
+section article p {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.4;
+}

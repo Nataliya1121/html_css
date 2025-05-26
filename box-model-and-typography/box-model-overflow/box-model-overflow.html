@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Overflow</title>
+    <style>
+
+        div {
+            border: 2px solid black;
+            width: 300px;
+            height: 100px;
+            padding: 0.5em;
+        }
+
+        .overflow-hidden {
+            overflow: hidden;
+        }
+
+        .overflow-scroll {
+            overflow: scroll;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Overflow Visible</h2>
+    <div>
+        <p>This is some longer content that will overflow out of its container to demonstrate the 'visible' setting of the overflow property, where overflow is not clipped and renders outside the element's box.</p>
+        <p>This is some longer content that will overflow out of its container to demonstrate the 'visible' setting of the overflow property, where overflow is not clipped and renders outside the element's box.</p>
+    </div>
+    
+    <h2>Overflow Hidden</h2>
+    <div class="overflow-hidden">
+        <p>This is some longer content that will overflow out of its container to demonstrate the 'visible' setting of the overflow property, where overflow is not clipped and renders outside the element's box.</p>
+        <p>This is some longer content that will overflow out of its container to demonstrate the 'visible' setting of the overflow property, where overflow is not clipped and renders outside the element's box.</p>
+    </div>
+    
+    <h2>Overflow Scroll</h2>
+    <div class="overflow-scroll">
+        <p>This is some longer content that will overflow out of its container to demonstrate the 'visible' setting of the overflow property, where overflow is not clipped and renders outside the element's box.</p>
+        <img src="https://images.unsplash.com/photo-1748092730230-6f1f13da51ca?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <p>This is some longer content that will overflow out of its container to demonstrate the 'visible' setting of the overflow property, where overflow is not clipped and renders outside the element's box.</p>
+    </div>        
+
+</body>
+</html>
